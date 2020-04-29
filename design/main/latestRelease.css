@@ -1,0 +1,96 @@
+.latest-release{
+    display: flex;
+    flex-direction: column;
+}
+.latest-release > h4 {
+    color: white;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    margin-left: 2rem;
+}
+
+.onism-container1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+
+}
+
+.onism{
+    height: 15vh;
+    width: 30vw;
+    background-color: #0e102a;
+    margin-left: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: space-between;
+
+}
+
+.onism-container2{
+    display: flex;
+    flex-direction: row;
+    margin-top: -1rem;
+}
+
+.onism-image{
+     background-image: url(./../../image/main/latestrelease/onism.jpg);
+     height: 10vh;
+     width: 10vw;
+     background-size: contain;
+     background-repeat: no-repeat;
+     text-align: center;
+}
+
+
+#pause{
+    margin-top: 1rem;
+    display: none;
+    position: relative;
+    right: 2rem;
+
+}
+
+
+.onism-image:hover  #pause {
+    display: inline-block;
+}
+
+
+#play{
+    display: none;
+}
+
+
+.onism-image + div {
+    font-weight: bold;
+    color: beige;
+    margin-left: -14rem;
+    margin-top: 0.5rem;
+}
+
+
+.date{
+    font-weight: normal;
+    color: lightgray;
+}
+
+#more_horiz{
+    color: lightgray;
+    margin-right: 0.5rem;
+    position: relative;
+    right: 5rem;
+}
+
+#more_horiz + div {
+    color: lightgray;
+    margin-top: -0.5rem;
+    font-size: 10px;
+    position: relative;
+    right: 78px;
+}
+
+
+

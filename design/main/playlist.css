@@ -1,0 +1,45 @@
+.playlist{
+    width: 63vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+
+}
+
+.playlist-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.roadtrip{
+    background-image: url(./../../image/main/playlist/roadtrip.jpg);
+
+}
+
+.party{
+    background-image: url(./../../image/main/playlist/party.jpg);
+
+}
+.electronics{
+    background-image: url(./../../image/main/playlist/electronics.jpeg);
+
+}
+
+.playlist-div div{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#playlist-text{
+    position: absolute;
+    top: 47%;
+    font-size: 1rem;
+    font-weight: bold;
+}

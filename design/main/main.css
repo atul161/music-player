@@ -1,0 +1,75 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main-container-section{
+    height: auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.club{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.club-image-decorate-arjit{
+    height: 30vh;
+    width: 20vw;
+    background-image: url(./../../image/main/club/arjitsingh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem 1rem 1rem 0rem;
+    transition: height 0.5s, width 0.5s;
+    border-radius: 10px;
+}
+
+.club-image-decorate-atif{
+    height: 30vh;
+    width: 20vw;
+    background-image: url(./../../image/main/club/atif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: height 0.5s, width 0.5s;
+    border-radius: 10px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.club-image-decorate-marshmallow{
+    height: 30vh;
+    width: 20vw;
+    background-image: url(./../../image/main/club/marshmallow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem 1rem 1rem 0rem;
+    transition: height 0.5s, width 0.5s;
+    border-radius: 10px;
+
+}
+
+.club-image-decorate-marshmallow:hover{
+    height: 35vh;
+    width: 25vw;
+    position: relative;
+    top: -1rem;
+}
+
+.club-image-decorate-arjit:hover{
+    height: 35vh;
+    width: 25vw;
+    position: relative;
+    top: -1rem;
+}
+
+.club-image-decorate-atif:hover{
+    height: 35vh;
+    width: 25vw;
+    position: relative;
+    top: -1rem;
+}

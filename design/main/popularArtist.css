@@ -1,0 +1,64 @@
+.popular-artist{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+.popular-artist  h4{
+    margin-left: 2rem;
+    position: absolute;
+    top: -1.5rem;
+    letter-spacing: 1px;
+
+}
+
+.profile-picture-artist{
+    height: 15vh;
+    width: 15vh;
+    background-color: beige;
+    border-radius: 15vh;
+    margin: 1rem 0  0 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.himesh{
+    background-image: url(./../../image/main/popularArtist/himesh_pp.jpg);
+    margin-top: 1.5rem;
+}
+
+
+.arjit{
+    background-image: url(./../../image/main/popularArtist/arjit_pp.jpeg);
+    margin-top: 1.5rem;
+}
+
+.neha{
+     background-image: url(./../../image/main/popularArtist/neha_pp.jpg);
+     margin-top: 1.5rem;
+ }
+
+.shan{
+    background-image: url(./../../image/main/popularArtist/shan_pp.jpg);
+    margin-top: 1.5rem;
+}
+
+.tony{
+    background-image: url(./../../image/main/popularArtist/tony_pp.jpg);
+    margin-top: 1.5rem;
+}
+.atif{
+    background-image: url(./../../image/main/popularArtist/atif_pp.png);
+    margin-top: 1.5rem;
+}
+
+.artist-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.profile-picture-artist + div{
+  margin-left: 2rem;
+}

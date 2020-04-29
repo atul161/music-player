@@ -1,0 +1,136 @@
+nav {
+    height: auto;
+    width: 100vw;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.music-player-logo{
+    height: 4rem;
+    width: 4rem;
+    background-repeat: no-repeat;
+    background-image: url(./../../image/navbar/musicplayer_logo.png);
+    background-size: cover;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+
+.title-music-player{
+    font-size: 1rem;
+    color: white;
+    font-family: Farah;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: bold;
+    word-break: normal;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-container div {
+    color: white;
+}
+
+.fav{
+    margin-left: 8rem;
+    margin-top: 0.7rem;
+    font-weight: normal;
+    font-family: "Apple Braille";
+    font-style: normal;
+}
+
+
+.nav-section-second {
+    height: 50px;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.material-icons{
+    padding-left: 0.5rem;
+}
+
+.profile-picture{
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-image: url(./../../image/navbar/profile.jpeg);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    border: 1px solid white;
+}
+
+
+#notification{
+    position: relative;
+    top: 0.5rem;
+    margin-top: 0.5rem;
+    left: -2rem;
+}
+
+.search{
+    width: 24vw;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 2rem;
+    background-color: #2e334b;
+    color: white;
+
+}
+
+
+.input-decoration{
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+#mic{
+    position: absolute;
+    left: 23vw;
+    top: 0.5rem;
+}
+
+#search-icon{
+    position: absolute;
+    left: 1px;
+    top: 0.5rem;
+    margin-right: 20px;
+}
+
+.red-dot{
+    background-color: red;
+    height: 7px;
+    width: 7px;
+    border-radius: 6px;
+    position: absolute;
+    left: -14px;
+    bottom: 22px;
+}
+
+.input-decoration + div{
+    position: relative;
+}

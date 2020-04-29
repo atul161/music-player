@@ -1,0 +1,51 @@
+.latest-song-container{
+    width: 63vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.latest-song-div{
+    height: 15vh;
+    width: 12vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.latest-song-main-container{
+    width: 63vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.latest-song-main-container h4{
+   letter-spacing: 1px;
+    font-weight: bold;
+    position: absolute;
+    top: -1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.latest-song-div-container{
+    flex-direction: column;
+    display: flex;
+}
+
+.flower{
+    background-image: url(./../../image/main/latestSong/flower1.jpeg);
+}
+
+.smoke{
+    background-image: url(./../../image/main/latestSong/smoke.jpeg);
+}
+
+#omnis{
+    background-image: url(./../../image/main/latestrelease/onism.jpg);
+}
